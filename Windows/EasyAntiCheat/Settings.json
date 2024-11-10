@@ -1,0 +1,11 @@
+{
+  "title": "Nostalgia Rust",
+  "executable": "NostalgiaRust.exe",
+  "productid": "c4e8ab7f5d584763a8754014a49c9e03",
+  "sandboxid": "259694a17d8d42b9829ff1ac10b882f8",
+  "deploymentid": "1bc7bdb2cc194e43afc0a3a24918c653",
+  "requested_splash": "EasyAntiCheat/SplashScreen.png",
+  "wait_for_game_process_exit": "false",
+  "hide_bootstrapper": "false",
+  "hide_gui": "false"
+}
