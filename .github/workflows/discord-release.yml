@@ -1,0 +1,21 @@
+on:
+  release:
+    types: [published]
+
+jobs:
+  github-releases-to-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛫 Checkout
+        uses: actions/checkout@v3
+      - name: 📩 Send to Discord
+        uses: SethCohen/github-releases-to-discord@v1
+        with:
+          webhook_url: ${{ secrets.WEBHOOK_URL }}
+          color: "2105893"
+          username: "Nostalgia Rust Releases"
+          avatar_url: "https://i.ibb.co/kywLrrW/Nostalgia-Rust2.png"
+          content: "<#1305583082753101945>"
+          footer_timestamp: true
+          max_description: '4096'
+          reduce_headings: true
