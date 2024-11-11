@@ -15,7 +15,7 @@ jobs:
           color: "3844677"
           username: "Nostalgia Rust Releases"
           avatar_url: "https://i.ibb.co/kywLrrW/Nostalgia-Rust2.png"
-          content: "<@1305583082753101945>"
+          content: "<@&1305583082753101945>"
           footer_timestamp: true
           max_description: '4096'
           reduce_headings: true
